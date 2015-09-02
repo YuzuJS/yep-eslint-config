@@ -1,5 +1,5 @@
 {
-  "name": "yep-eslint-config",
+  "name": "@yuzu/yep-eslint-config",
   "version": "1.0.0",
   "description": "configuration for eslint",
   "main": ".eslitrc",
