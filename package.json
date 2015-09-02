@@ -1,0 +1,15 @@
+{
+  "name": "yep-eslint-config",
+  "version": "1.0.0",
+  "description": "configuration for eslint",
+  "main": ".eslitrc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuzuJS/yep-eslint-config.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuzuJS/yep-eslint-config/issues"
+  },
+  "homepage": "https://github.com/YuzuJS/yep-eslint-config#readme"
+}
