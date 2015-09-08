@@ -1,3 +1,10 @@
+# Installation
+* Make sure you have [eslint installed](https://github.com/eslint/eslint).
+* Install the latest @yuzu/yep-eslint-config.
+* In your top level package.json add the following under 'scripts':
+    `"lint": "eslint -c ./node_modules/@yuzu/yep-eslint-config/.eslintrc ."`
+* Call `npm run lint` from the command line to run.
+
 # ESLint React Rules Currently On:
 * [Enforce boolean attributes notation in JSX](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md)
 * [Curly Spacing](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md)
