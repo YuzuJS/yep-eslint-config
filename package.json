@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/YuzuJS/yep-eslint-config/issues"
   },
-  "homepage": "https://github.com/YuzuJS/yep-eslint-config#readme"
+  "homepage": "https://github.com/YuzuJS/yep-eslint-config#readme",
+  "dependencies": {
+    "babel-eslint": "^4.1.1"
+  }
 }
