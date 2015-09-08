@@ -1,5 +1,5 @@
 {
-    "parser": "babel-eslint",
+    "parser": "@yuzu/yep-eslint-config/node_modules/babel-eslint",
     "rules": {
         "indent": [
             2,
