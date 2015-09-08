@@ -39,6 +39,6 @@
         "experimentalObjectRestSpread": true
     },
     "plugins": [
-        "react"
+        "@yuzu/yep-eslint-config/node_modules/eslint-plugin-react"
     ]
 }
