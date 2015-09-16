@@ -1,5 +1,5 @@
 {
-    "parser": "@yuzu/yep-eslint-config/node_modules/babel-eslint",
+    "parser": "babel-eslint",
     "rules": {
         "indent": [
             2,
@@ -31,7 +31,8 @@
         "mocha": true
     },
     "globals": {
-        "sinon": true
+        "sinon": true,
+        "expect": true
     },
     "extends": "eslint:recommended",
     "ecmaFeatures": {
@@ -39,6 +40,6 @@
         "experimentalObjectRestSpread": true
     },
     "plugins": [
-        "@yuzu/yep-eslint-config/node_modules/eslint-plugin-react"
+        "eslint-plugin-react"
     ]
 }
