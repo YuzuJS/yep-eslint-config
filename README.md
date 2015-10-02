@@ -28,6 +28,8 @@ If that doesn't work, the alternative is to physically move the plugins to whate
 -index.js
 -package.json
 ```
+##### Help! I'm getting an error that says `'eslint' is not recognized as an internal or external command, operable program or batch file. ` but I totally have eslint installed!
+This may mean that for some reason you're missing your eslint bin file (potentially because the generator didn't install it properly). To resolve this problem simply type `npm install eslint` in your command line and hit enter and you should be good to go.
 
 ## ESLint React Rules Currently On:
 * [Enforce boolean attributes notation in JSX](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md)
