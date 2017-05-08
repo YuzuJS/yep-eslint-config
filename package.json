@@ -13,7 +13,31 @@
   },
   "homepage": "https://github.com/YuzuJS/yep-eslint-config#readme",
   "peerDependencies": {
-    "babel-eslint": "^4.1.1",
-    "eslint-plugin-react": "^3.3.1"
-  }
+    "babel-eslint": "^6.1.2",
+    "eslint-plugin-react": "^5.2.2"
+  },
+  "gitHead": "346dfa128a7fa42c5b6f367ec384fd11ac531314",
+  "_id": "@yuzu/yep-eslint-config@1.0.3",
+  "scripts": {},
+  "_shasum": "eaeb05f6fe6f7ef6f6e5c19621448416750dd547",
+  "_from": "@yuzu/yep-eslint-config@>=1.0.3 <2.0.0",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "yuzu",
+    "email": "donavon@yuzu.com"
+  },
+  "dist": {
+    "shasum": "eaeb05f6fe6f7ef6f6e5c19621448416750dd547",
+    "tarball": "http://registry.npmjs.org/@yuzu/yep-eslint-config/-/yep-eslint-config-1.0.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "yuzu",
+      "email": "donavon@yuzu.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/@yuzu/yep-eslint-config/-/yep-eslint-config-1.0.3.tgz",
+  "readme": "ERROR: No README data found!"
 }
