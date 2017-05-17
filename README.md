@@ -1,35 +1,11 @@
-## Installation
-* Make sure you have [eslint installed](https://github.com/eslint/eslint) as a dev dependency.
-* Install the latest @yuzu/yep-eslint-config as a devDependency.
+# Installation
+* Make sure you have [eslint installed](https://github.com/eslint/eslint).
+* Install the latest @yuzu/yep-eslint-config.
 * In your top level package.json add the following under 'scripts':
     `"lint": "eslint -c ./node_modules/@yuzu/yep-eslint-config/.eslintrc ."`
 * Call `npm run lint` from the command line to run.
 
-##Troubleshooting
-##### Help! I'm getting an error about not having a react plugin or babel plugin installed.
-This probably means that something went wrong with npm when installing your peer dependencies. Most likely inside your `node_modules/@yuzu` you have another `node_modules` folder that contains our eslint plugins and our config can't find it. There are two possible ways to fix this.
-
-The first is to delete your `node_modules` folder from your yep-app component and `npm install` again from that component's top level directory to see if NPM can't sort itself out.
-
-If that doesn't work, the alternative is to physically move the plugins to whatever the top most node_modules folder of your application is.
-
-```
-@yuzu/my-component
--lib
--node_modules
-    -eslint
-    -chai
-    -@yuzu
-        -yep-eslint-config
-        -node_modules (this folder shouldn't exist)
-            -babel-eslint (move me!)
-            -eslint-plugin-react (move me!)
-    -(move babel-eslint and eslint-plugin-react to this level)
--index.js
--package.json
-```
-
-## ESLint React Rules Currently On:
+# ESLint React Rules Currently On:
 * [Enforce boolean attributes notation in JSX](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md)
 * [Curly Spacing](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md)
 * [Indent Props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md)
